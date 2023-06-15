@@ -1,12 +1,14 @@
 <page>
     <actionBar title="Home" />
     <gridLayout>
-        <label class="text-xl align-middle text-center text-gray-500" text="{message}" />
+        <label class="text-xl" text="Team 1" />
+        <label class="text-xl" text="Team 2" />
     </gridLayout>
 </page>
 
 <script lang="ts">
-    let message: string = "Hello Adam !!!!"
+    let score1=0;
+    let score2=0;
 </script>
 
 <style>
